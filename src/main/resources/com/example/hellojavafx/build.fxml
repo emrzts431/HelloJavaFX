@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="356.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellojavafx.Controller">
+   <children>
+      <Button fx:id="btn1" layoutX="55.0" layoutY="43.0" mnemonicParsing="false" onAction="#Button1Action" text="PDF auswählen" />
+      <TextField fx:id="textview" layoutX="162.0" layoutY="43.0" prefHeight="25.0" prefWidth="418.0" />
+      <Button fx:id="btn2" layoutX="60.0" layoutY="110.0" mnemonicParsing="false" onAction="#Button2Action" text="Excel auswählen" />
+      <TextField fx:id="textview1" layoutX="177.0" layoutY="110.0" prefHeight="25.0" prefWidth="403.0" />
+      <Button fx:id="btn3" layoutX="111.0" layoutY="232.0" mnemonicParsing="false" onAction="#Button3Action" prefHeight="25.0" prefWidth="61.0" text="Start">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="exit" layoutX="422.0" layoutY="232.0" mnemonicParsing="false" onAction="#Exit" prefHeight="25.0" prefWidth="61.0" text="Exit">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="163.0" layoutY="68.0" text="(Die Excel- und PDF-Dateien müssen sich nicht im selben Ordner befinden)" />
+   </children>
+</AnchorPane>
